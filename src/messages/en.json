@@ -1,0 +1,84 @@
+
+
+{
+  "Dashboard": {
+    "TopBarChartTitle": "Most Incident Occuring Places",
+    "MidPieChartTitle": "Status of Incidents",
+    "MidBarChartTitle": "Most Registered Type Incident",
+    "BottomLineChartTitle": "Trend of No Of Registered Cases",
+
+    "TodayIncidentTab": {
+      "title": "Today's Incident Report Status",
+      "incident_count": "Incident's Count",
+      "all_clear": "All Clear",
+      "active": "Active",
+      "trash": "Trash",
+      "on_move": "On Move",
+      "cancelled":"Cancelled",
+      "Normal": "Normal",
+      "Emergency": "Emergency"
+    }
+  },
+  "map": {
+    "title": "Map"
+  },
+  "incident": {
+    "title": "Incident Reports"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode"
+  },
+  "filterComponent": {
+    "Search": "Search",
+    "Type": "Type",
+    "Status": "Status",
+    "Date": "Date"
+  },
+  "dateFilterComponent": {
+    "From": "From",
+    "To": "To",
+    "Type":"Type",
+    "Status":"Status"
+  },
+  "chartExtraFilter": {
+    "HighToLow": "High To Low",
+    "LowToHigh": "Low To High"
+  },
+  "sidebarComponent": {
+    "Dashboard": "Dashboard",
+    "Maps": "Maps",
+    "Incidents": "Incidents",
+    "Settings": "Settings",
+    "Logout": "Logout",
+    "Blog":"Blog"
+  },
+  "tabComponent": {
+    "Tab1": "Tab1",
+    "Tab2": "Tab2"
+  },
+  "form": {
+    "placeHolders": {
+      "Service": "Enter Accident Type",
+      "Location": "Enter Location",
+      "Contact": "Enter Contact No",
+      "Video": "Video",
+      "Message": "Message"
+    },
+    "title": "Create Incident Report",
+    "Service": "Service Type",
+    "Location": "Location",
+    "Contact": "Contact No",
+    "Message": "Message",
+    "Video": "Video",
+    "error": "This is a required Field",
+    "Submit": "Create Report"
+  },
+  "button":{
+    "Submit":"Submit"
+  },
+  "login":{
+    "text":"Enter Your Account Details",
+    "loginText":"Login"
+  }
+}

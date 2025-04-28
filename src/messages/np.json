@@ -1,0 +1,83 @@
+{
+  "Dashboard": {
+    "TopBarChartTitle": "सबैभन्दा धेरै घटना हुने स्थानहरू",
+    "MidPieChartTitle": "घटनाहरूको स्थिति",
+    "MidBarChartTitle": "सबैभन्दा धेरै दर्ता भएका घटनाको प्रकार",
+    "BottomLineChartTitle": "दर्ता भएका घटनाहरूको प्रवृत्ति",
+    "TodayIncidentTab": {
+      "title": "आजको घटना प्रतिवेदन स्थिति",
+      "incident_count": "घटनाहरूको गणना",
+      "all_clear": "सबै ठीक",
+      "active": "सक्रिय",
+      "trash": "फोहोर",
+      "on_move": "चलिरहेको",
+      "cancelled": "रद्द गरिएको",
+      "Normal": "साधारण",
+      "Emergency": "आपतकालीन"
+    }
+  },
+  "map": {
+    "title": "नक्सा"
+  },
+  "incident": {
+    "title": "घटना प्रतिवेदन"
+  },
+  "theme": {
+    "light": "हल्का मोड",
+    "dark": "गाढा मोड"
+  },
+  "filterComponent": {
+    "Search": "खोजी",
+    "Type": "प्रकार",
+    "Status": "स्थिति",
+    "Date": "मिति"
+  },
+  "dateFilterComponent": {
+    "From": "बाट",
+    "To": "सम्म",
+    "Type": "प्रकार",
+    "Status": "स्थिति"
+  },
+  "chartExtraFilter": {
+    "HighToLow": "उच्च देखि न्यून",
+    "LowToHigh": "न्यून देखि उच्च"
+  },
+  "sidebarComponent": {
+    "Dashboard": "ड्यासबोर्ड",
+    "Maps": "नक्सा",
+    "Incidents": "घटनाहरू",
+    "Settings": "सेटिङ",
+    "Logout": "बाहिर निस्कनुहोस्",
+    "Blog":"ब्लग"
+
+  },
+  "tabComponent": {
+    "Tab1": "ट्याब १",
+    "Tab2": "ट्याब २"
+  },
+  "form": {
+    "placeHolders": {
+      "Service": "दुर्घटनाको प्रकार प्रविष्ट गर्नुहोस्",
+      "Location": "स्थान प्रविष्ट गर्नुहोस्",
+      "Contact": "सम्पर्क नम्बर प्रविष्ट गर्नुहोस्",
+      "Video": "भिडियो",
+      "Message": "सन्देश"
+    },
+
+    "title": "घटना प्रतिवेदन सिर्जना गर्नुहोस्",
+    "Service": "सेवा प्रकार",
+    "Location": "स्थान",
+    "Contact": "सम्पर्क नम्बर",
+    "Video": "भिडियो",
+    "Message": "सन्देश",
+    "error": "यो आवश्यक क्षेत्र हो",
+    "Submit": "प्रतिवेदन सिर्जना गर्नुहोस्"
+  },
+  "button": {
+    "Submit": "पेश गर्नु"
+  },
+  "login": {
+    "text": "आफ्नो खाता विवरण प्रविष्ट गर्नुहोस्",
+    "loginText": "लगइन"
+  }
+}

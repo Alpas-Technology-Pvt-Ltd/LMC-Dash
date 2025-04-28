@@ -1,0 +1,24 @@
+type contextType = {
+  activeTab: number;
+  setActiveTab: Dispatch<SetStateAction<number>>;
+  sidebarOpen: boolean;
+  setSidebarOpen: Dispatch<SetStateAction<boolean>>;
+  theme: string;
+  setTheme: Dispatch<SetStateAction<string>>;
+  todayIncidents: Incident[] | [];
+  setTodayIncidents: Dispatch<SetStateAction<Incident[] | []>>;
+  incidentPageData: Incident[] | [];
+  setIncidentPageData: Dispatch<SetStateAction<Incident[] | []>>;
+  emergencyIncident: Incident[] | [];
+  setEmergencyIncidents: Dispatch<SetStateAction<Incident[] | []>>;
+  incidentsChangeIndicator: boolean;
+  setIncidentChangeIndicator: Dispatch<SetStateAction<boolean>>;
+  emerygencyRedirect: boolean;
+  setEmergencyRedirect: Dispatch<SetStateAction<boolean>>;
+  userAuthStatus: boolean;
+  setUserAuthStatus: Dispatch<SetStateAction<boolean>>;
+  refreshToken: string | null;
+  setRefreshToken: Dispatch<SetStateAction<string | null>>;
+  totalIncidentCount: number;
+  setTotalIncidentCount: Dispatch<SetStateAction<number>>;
+};
