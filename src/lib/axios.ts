@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import Cookies from 'js-cookie';
 
-const BASE_URL = 'https://alert.alpalika.com';
+const BASE_URL = 'https://yalapi.lalitpur.city';
 
 function deleteCookie(name, path = '/') {
   document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=${path};`;
@@ -42,7 +42,7 @@ api.interceptors.response.use(
       // Request new access token
       try {
         const response = await axios.post(
-          'https://alert.alpalika.com/api/v1/refresh/',
+          'https://yalapi.lalitpur.city/api/v1/refresh/',
           {
             refresh: refreshToken,
           },

@@ -31,7 +31,7 @@ const context = createContext<contextType>({
   setTotalIncidentCount: () => {},
 });
 
-const SOCKET_SERVER_URL = 'https://alert.alpalika.com';
+const SOCKET_SERVER_URL = 'https://yalapi.lalitpur.city';
 
 const ContextWrapper = ({ children }: { children: React.ReactNode }) => {
   // const socket = useMemo(() => io(SOCKET_SERVER_URL), []);
