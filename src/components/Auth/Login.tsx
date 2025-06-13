@@ -86,7 +86,7 @@ const Login = () => {
             <label className="font-semibold text-current">Email</label>
             <input
               type="email"
-              value={'ronak@alpas.com'}
+              value={'subodh@alpastechnology.com'}
               {...register(`email`, { required: true })}
               className="w-full px-4 py-2 border-2 border-gray-300 rounded-md focus:ring-2 focus:ring-theme_color outline-none text-black"
               placeholder="email..."
@@ -99,7 +99,7 @@ const Login = () => {
             <label className="font-semibold text-current">Password</label>
             <input
               {...register(`password`, { required: true })}
-              value="loginandenter"
+              value="Test#12345"
               type="password"
               className="w-full px-4 py-2 border-2 border-gray-300 rounded-md focus:ring-2 focus:ring-theme_color outline-none text-black"
               placeholder="Pasword..."
